@@ -1,0 +1,378 @@
+/*!
+Theme Name: Memorabilia Center 2021
+Theme URI: http://austincrane.me/
+Author: Austin Crane
+Author URI: http://austincrane.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: acstarter
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+r
+ACStarter is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+/*--------------------------------------------------------------
+# Exisiting Styles
+--------------------------------------------------------------*/
+@import "style-prev";
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+$tabwidth: 600px;
+$midwidth: 900px;
+$deskwidth: 1245px;
+$gold: #a4865e;
+$brown: #342b23;
+$black: #070d18;
+$brightgold: #bf8f53;
+
+div {
+	@media screen and (min-width: $tabwidth) {
+
+	}
+	@media screen and (min-width: $deskwidth) {
+
+	}
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	@media screen and (min-width: $tabwidth) {
+		
+	}
+	@media screen and (min-width: $deskwidth) {
+		width: 1230px;
+	}
+}
+#header {
+	position: relative;
+}
+#footer {
+	background-color: #fff;
+	color: $brown;
+	a {
+		color: $brown;
+	}
+}
+section.homecats {
+	width: 100%;
+	position: relative;
+	background-color: $black;
+	@media screen and (min-width: $tabwidth) {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: stretch;
+	}
+	
+	.hcat-card {
+		width: 90%;
+		background-color: #fff;
+		padding: 10px 10px 30px 10px;
+		border-bottom: 5px solid $gold;
+		margin: 0 auto 45px auto;
+		@media screen and (min-width: $tabwidth) {
+			flex-basis: 22%;
+			width: auto;
+			margin: 0 auto 45px auto;
+		}
+		a {
+			color: #fff;
+			text-decoration: none;
+		}
+		.theimage {
+			width: 100%;
+			position: relative;
+			overflow: hidden;
+			img {
+				width: 100%;
+			}
+			.thefade {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				background: rgb(0,0,0);
+				background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+				bottom: -100%;
+				left: 0;
+				transition: all ease .2s;
+				h3 {
+					width: 100%;
+					position: absolute;
+					bottom: 25%;
+					color: #fff;
+					text-align: center;
+					text-transform: uppercase;
+					font-size: 22px;
+					font-weight: normal;
+				}
+			}
+		}
+		&:hover {
+			.theimage .thefade {
+				bottom: 0;
+			}
+		}
+		
+	}
+}
+.header-right {
+	width: 100%;
+	float: right;
+	position: relative;
+	@media screen and (min-width: $tabwidth) {
+		margin-top: 15px;
+		width: auto;
+	}
+	.row1 {
+		width: 100%;
+		text-align: center;
+		@media screen and (min-width: $tabwidth) {
+			width: auto;
+			float: right;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+	}
+	.dinline {
+		// display: inline-block;
+	}
+}
+.auction {
+	width: 200px;
+	
+	margin: 10px auto 0 auto;
+	@media screen and (min-width: $tabwidth) {
+		float: right;
+		margin-top: 20px;
+		width: 250px;
+	}
+	a {
+		background-color: $brightgold;
+		color: #fff;
+		text-decoration: none;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: center;
+		padding: 8px;
+		@media screen and (min-width: $tabwidth) {
+			padding: 10px 15px;
+		}
+		&:hover {
+			.hammer {
+				transform: rotate(45deg); /* Equal to rotateZ(45deg) */
+			}
+		}
+	}	
+	.hammer {
+		margin-right: 5px;
+		font-size: 20px;
+		transform: rotate(0deg); /* Equal to rotateZ(45deg) */
+		transition: all ease .2s;
+		@media screen and (min-width: $tabwidth) {
+			font-size: 40px;
+			margin-right: 10px;
+		}
+	}
+	.words {
+
+	}
+}
+#sociallinks {
+	width: auto;
+	font-size: 30px;
+	display: inline-block;
+	@media screen and (min-width: $tabwidth) {
+		width: auto;
+		margin-right: 20px;
+		transform: scale(1);
+		transition: all ease .2s;
+	}
+	a:hover {
+		transform: scale(1.1);
+		color: $gold;
+	}
+}
+#header-tagline {
+	width: auto;
+	margin-top: 10px;
+}
+.main-navigation ul.nav-menu {
+	width: 100%;
+	float: left;
+	@media screen and (min-width: $tabwidth) {
+		display: flex;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: stretch;
+		clear: both;
+	}
+	li {
+		line-height: 4;
+	}
+	&.toggled-on {
+		background-color: $brightgold;
+		li {
+			font-size: 16px;
+			text-transform: uppercase;
+			a {
+				text-decoration: none;
+				color: #fff;
+			}
+		}
+	}
+}
+h3.menu-toggle {
+	width: auto;
+	background-color: #fff;
+	text-transform: uppercase;
+	border: 2px solid $brightgold;
+	color: $black;
+	padding: 15px 25px;
+}
+section.home-signup {
+	width: 100%;
+	background-color: $black;
+	padding: 100px 0;
+	h3 {
+		text-align: center;
+		color: #fff;
+		margin-bottom: 30px;
+		font-weight: normal;
+		line-height: 1.3;
+		font-size: 24px;
+	}
+	.signupforma {
+		width: 330px;
+		margin: 0 auto;
+	}
+	input.input, input.signup {
+		border-radius: 0;
+		border: 0;
+	}
+	input.input {
+		background-color: #fff;
+		color: rgba(#000, .3);
+		width: 200px;
+	}
+	input.signup {
+		background-color: $gold;
+		color: #fff;
+		width: 100px;
+		text-align: center;
+	}
+}
+#footerinside {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	@media screen and (min-width: $tabwidth) {
+		
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 0;
+	}
+	.copyright {
+		margin: 20px 0 15px 0;
+		@media screen and (min-width: $tabwidth) {
+			margin: 0 0 15px 0;
+		}
+	}
+	#footer-menu{
+		@media screen and (min-width: $tabwidth) {
+			margin: 0 0 15px 0;
+		}
+	}
+	.box3 {
+		text-align: center;
+		margin: 30px 0 30px 0;
+		padding-bottom: 30px;
+		@media screen and (min-width: $tabwidth) {
+			text-align: right;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	#footer-menu, #footer-menu li {
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+		@media screen and (min-width: $tabwidth) {
+			text-align: right;
+			float: right;
+		}
+	}
+	#footer-menu li {
+		margin-left: 10px;
+	}
+}
+section.foot-search {
+	background-color: $brightgold;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+	@media screen and (min-width: $tabwidth) {
+		flex-direction: row;
+	}
+	.foot-search-title {
+		font-size: 18px;
+		margin: 0 0 20px 0;
+		@media screen and (min-width: $tabwidth) {
+			margin: 0 15px;
+		}
+	}
+	.footform {
+		width: auto;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		width: 250px;
+		@media screen and (min-width: $tabwidth) {
+			margin: 0 15px;
+		}
+		form {
+			width: 100%;
+		}
+	}
+	input.footsearch, button.footsubmit {
+		border-radius: 0;
+		border: 0;
+		float: left;
+		width: auto;
+	}
+	input.footsearch {
+		background-color: #fff;
+		width: 200px;
+	}
+	button.footsubmit {
+		background-color: $black;
+		color: #fff;
+		width: 30px;
+	}
+}
