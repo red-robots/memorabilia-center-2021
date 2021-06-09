@@ -824,7 +824,7 @@ section.homecats { width: 100%; position: relative; background-color: #070d18; }
 
 section.homecats .hcat-card { width: 90%; background-color: #fff; padding: 10px 10px 30px 10px; border-bottom: 5px solid #a4865e; margin: 0 auto 45px auto; }
 
-@media screen and (min-width: 600px) { section.homecats .hcat-card { -ms-flex-preferred-size: 22%; flex-basis: 22%; width: auto; margin: 0 auto 45px auto; } }
+@media screen and (min-width: 600px) { section.homecats .hcat-card { -ms-flex-preferred-size: 30%; flex-basis: 30%; width: auto; margin: 0 auto 45px auto; } }
 
 section.homecats .hcat-card a { color: #fff; text-decoration: none; }
 
