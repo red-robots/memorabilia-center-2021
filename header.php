@@ -61,7 +61,7 @@
     <div id="top-header">
     	<div id="top-header-inside">
         
-        	<div class="siteTagLine-header roboto">Home of exclusive <em>Joe DiMaggio</em> autographed memorabilia</div>
+        	<div class="siteTagLine-header roboto"><?php bloginfo('description'); ?></div>
         
         	<div id="header-menu">
             
