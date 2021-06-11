@@ -13,6 +13,7 @@ $post = get_post( $pageID );
 setup_postdata( $post );
 
 	$frontCats = get_field('categories_to_show_on_homepage');
+	$emailTitle = get_field('email_signup');
 
 	foreach ( $frontCats as $c ) {
 		$cat = get_term( $c, 'product_cat' );
@@ -49,7 +50,7 @@ wp_reset_postdata();
    
    <section class="home-signup">
 	   	<div class="signup-wrapper">
-	   	<h3>Get priority access to our most valued<br>memorabilia delivered to your inbox</h3>
+	   	<h3><?php echo $emailTitle; ?></h3>
 	   	  <div class="signupforma">
 			<form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" >
 			<div class="input-wrapper">
