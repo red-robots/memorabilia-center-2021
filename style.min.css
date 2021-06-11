@@ -353,11 +353,13 @@ section.homecats .hcat-card:hover .theimage .thefade{bottom:0}
 .main-navigation ul.nav-menu.toggled-on li a{text-decoration:none;color:#fff}
 h3.menu-toggle{width:auto;background-color:#fff;text-transform:uppercase;border:2px solid #bf8f53;color:#070d18;padding:15px 25px}
 section.home-signup{width:100%;background-color:#070d18;padding:100px 0}
-section.home-signup h3{text-align:center;color:#fff;margin-bottom:30px;font-weight:normal;line-height:1.3;font-size:24px}
-section.home-signup .signupforma{width:330px;margin:0 auto}
+section.home-signup .signup-wrapper{width:90%;padding:30px;margin:0 auto;background-color:#fff}
+section.home-signup h3{text-align:center;color:#342b23;margin-bottom:30px;font-weight:normal;line-height:1.3;font-size:24px}
+section.home-signup .signupforma{width:380px;margin:0 auto}
 section.home-signup input.input,section.home-signup input.signup{border-radius:0;border:0}
-section.home-signup input.input{background-color:#fff;color:rgba(0,0,0,0.3);width:200px}
-section.home-signup input.signup{background-color:#a4865e;color:#fff;width:100px;text-align:center}
+section.home-signup input.input{background-color:#fff;color:rgba(0,0,0,0.3);width:58%}
+section.home-signup input.signup{background-color:#a4865e;color:#fff;width:33%;text-align:center}
+section.home-signup .input-wrapper{display:inline-block;background-color:#070d18;padding:30px}
 #footerinside{text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
 #footerinside .copyright{margin:20px 0 15px 0}
 #footerinside .box3{text-align:center;margin:30px 0 30px 0;padding-bottom:30px}
@@ -484,4 +486,8 @@ li.product{width:220px;height:340px}
 .home-right{width:500px;height:250px;float:right;margin:70px 50px 0 0;padding:0 5px 0 0}
 #footerinside{width:1230px;margin:0 auto;overflow:hidden;position:relative}
 }@media screen and (min-width:1245px){.wrapper{width:1230px}
+section.home-signup .signup-wrapper{width:60%;padding:60px 30px}
+section.home-signup input.input{width:200px}
+section.home-signup input.signup{width:100px}
+section.home-signup .input-wrapper{width:330px}
 }

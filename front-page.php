@@ -48,18 +48,21 @@ wp_reset_postdata();
 ?>
    
    <section class="home-signup">
-   	<h3>Get priority access to our most valued<br>memorabilia delivered to your inbox</h3>
-   	  <div class="signupforma">
-		<form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" >
-		
-		<input class="input" type="text" name="ea" id="emailinputz"  value="email">
-		<input class="signup type="submit" name="go" value="SIGN ME UP"  >
+	   	<div class="signup-wrapper">
+	   	<h3>Get priority access to our most valued<br>memorabilia delivered to your inbox</h3>
+	   	  <div class="signupforma">
+			<form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" >
+			<div class="input-wrapper">
+				<input class="input" type="text" name="ea" id="emailinputz"  value="email">
+				<input class="signup type="submit" name="go" value="SIGN ME UP"  >
+			</div>
 
-		<input type="hidden" name="llr" value="xyl5irqab">
-		<input type="hidden" name="m" value="1117271306007">
-		<input type="hidden" name="p" value="oi">
-		</form>
-		</div><!-- signup -->
+			<input type="hidden" name="llr" value="xyl5irqab">
+			<input type="hidden" name="m" value="1117271306007">
+			<input type="hidden" name="p" value="oi">
+			</form>
+			</div><!-- signup -->
+		</div>
    </section> 
 
 <?php get_footer(); ?>
