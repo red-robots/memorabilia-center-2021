@@ -134,7 +134,7 @@
             $auction = get_field('auction_link', 'option');
             if( $auction != '' ) { ?>
           <div class="auction">
-            <a href="<?php bloginfo('url'); ?>/">
+            <a href="<?php echo $auction; ?>/">
               <div class="hammer">
                 <i class="fal fa-gavel"></i>
               </div>
