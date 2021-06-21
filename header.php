@@ -130,6 +130,9 @@
        <div class="clear"></div>
         <div id="header-tagline" class="roboto"><?php the_field('header_tagline','option'); ?></div>
         <div class="clear"></div>
+          <?php 
+            $auction = get_field('auction_link', 'option');
+            if( $auction != '' ) { ?>
           <div class="auction">
             <a href="<?php bloginfo('url'); ?>/">
               <div class="hammer">
@@ -140,6 +143,7 @@
               </div>
             </a>
           </div>
+        <?php } ?>
         </div>
         
         
