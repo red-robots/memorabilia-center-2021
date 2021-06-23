@@ -52,7 +52,7 @@ wp_reset_postdata();
 	   	<div class="signup-wrapper">
 	   	<h3><?php echo $emailTitle; ?></h3>
 	   	  <div class="signupforma">
-			<form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" >
+			<form name="ccoptin" action="https://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" >
 			<div class="input-wrapper">
 				<input class="input" type="text" name="ea" id="emailinputz"  value="email">
 				<input class="signup type="submit" name="go" value="SIGN ME UP"  >
