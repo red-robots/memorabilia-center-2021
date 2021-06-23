@@ -55,7 +55,7 @@ wp_reset_postdata();
 			<form name="ccoptin" action="https://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" >
 			<div class="input-wrapper">
 				<input class="input" type="text" name="ea" id="emailinputz"  value="email">
-				<input class="signup type="submit" name="go" value="SIGN ME UP"  >
+				<input class="signup" type="submit" name="go" value="SIGN ME UP"  >
 			</div>
 
 			<input type="hidden" name="llr" value="xyl5irqab">
