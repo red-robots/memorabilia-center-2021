@@ -396,6 +396,7 @@ section.foot-search {
 	input.footsearch {
 		background-color: #fff;
 		width: 200px;
+		color: $black;
 	}
 	button.footsubmit {
 		background-color: $black;
@@ -403,3 +404,9 @@ section.foot-search {
 		width: 30px;
 	}
 }
+ .woocommerce div.product form.cart .button {
+ 	background-color: $brightgold;
+ 	color: #fff;
+ 	border-radius: 0;
+ 	box-shadow: none;
+ }

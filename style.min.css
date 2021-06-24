@@ -370,8 +370,9 @@ section.foot-search .foot-search-title{font-size:18px;margin:0 0 20px 0}
 section.foot-search .footform{width:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:250px}
 section.foot-search .footform form{width:100%}
 section.foot-search input.footsearch,section.foot-search button.footsubmit{border-radius:0;border:0;float:left;width:auto}
-section.foot-search input.footsearch{background-color:#fff;width:200px}
+section.foot-search input.footsearch{background-color:#fff;width:200px;color:#070d18}
 section.foot-search button.footsubmit{background-color:#070d18;color:#fff;width:30px}
+.woocommerce div.product form.cart .button{background-color:#bf8f53;color:#fff;border-radius:0;-webkit-box-shadow:none;box-shadow:none}
 @media screen and (min-width:600px){.signupform{width:500px;padding-top:10px;font-family:Oswald,sans-serif;margin:0 0 30px 0}
 input.submitemail{font-size:14px;border:0;background-color:#070d18;height:40px;border-radius:5px;color:#52565e;width:70px}
 input#emailinput{width:300px;font-size:14px;color:#52565e;border:0;background-color:#070d18;height:28px;border-radius:5px;padding-left:4px;margin-right:10px}
