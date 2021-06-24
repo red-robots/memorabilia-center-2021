@@ -404,6 +404,14 @@ section.foot-search {
 		width: 30px;
 	}
 }
+.wc-proceed-to-checkout {
+	a.checkout-button {
+		background-color: $brightgold;
+	}
+}
+.woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt {
+	background-color: $brightgold;
+}
  .woocommerce div.product form.cart .button {
  	background-color: $brightgold;
  	color: #fff;

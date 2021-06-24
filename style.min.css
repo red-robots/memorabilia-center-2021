@@ -372,6 +372,8 @@ section.foot-search .footform form{width:100%}
 section.foot-search input.footsearch,section.foot-search button.footsubmit{border-radius:0;border:0;float:left;width:auto}
 section.foot-search input.footsearch{background-color:#fff;width:200px;color:#070d18}
 section.foot-search button.footsubmit{background-color:#070d18;color:#fff;width:30px}
+.wc-proceed-to-checkout a.checkout-button{background-color:#bf8f53}
+.woocommerce a.button.alt,.woocommerce button.button.alt,.woocommerce input.button.alt,.woocommerce #respond input#submit.alt,.woocommerce #content input.button.alt,.woocommerce-page a.button.alt,.woocommerce-page button.button.alt,.woocommerce-page input.button.alt,.woocommerce-page #respond input#submit.alt,.woocommerce-page #content input.button.alt{background-color:#bf8f53}
 .woocommerce div.product form.cart .button{background-color:#bf8f53;color:#fff;border-radius:0;-webkit-box-shadow:none;box-shadow:none}
 @media screen and (min-width:600px){.signupform{width:500px;padding-top:10px;font-family:Oswald,sans-serif;margin:0 0 30px 0}
 input.submitemail{font-size:14px;border:0;background-color:#070d18;height:40px;border-radius:5px;color:#52565e;width:70px}
