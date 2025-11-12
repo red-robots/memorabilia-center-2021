@@ -87,7 +87,7 @@ wp_reset_postdata();
 			<div class="input-wrapper">
 				<!-- <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
 				</label> -->
-				<input type="email" value="your email..." name="EMAIL" class="input" id="mce-EMAIL">
+				<input type="email" placeholder="your email..." name="EMAIL" class="input" id="mce-EMAIL">
 				
 			   <input type="submit" value="SIGN ME UP" name="subscribe" id="mc-embedded-subscribe" class="signup">
 			    </div>
