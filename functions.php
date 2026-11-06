@@ -259,7 +259,7 @@ add_action('init','remove_loop_button');
 /*  Woocommerce Hooks and Functions  */
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
 // Display 24 products per page. Goes in functions.php
-add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 24;' ), 20 );
+add_filter( 'loop_shop_per_page', function ( $cols ) { return 24; }, 20 );
 
 // Modify the default WooCommerce orderby dropdown
 //
